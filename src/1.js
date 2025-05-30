@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/* import { useState } from 'react'
 import './App.css'
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
 
       <div className='bg-gray-200 flex items-center justify-center min-h-screen'>
         <div className='border p-7 rounded-xl bg-white shadow-lg w-100'>
-          <button onClick={increment} className='border rounded p-2 bg-green-300 shadow-lg'>Increment</button>
+          <button onClick={increment} className='border rounded p-2 bg-green-300'>Increment</button>
 
-          <div className='border rounded bg-red-300 p-2 w-25 float-end shadow-lg'>Count: {count}</div>
+          <div className='border rounded bg-red-300 p-2 w-25 float-end'>Count: {count}</div>
         </div>
       </div>
 
@@ -24,3 +24,4 @@ function App() {
 }
 
 export default App
+*/
