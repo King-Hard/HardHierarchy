@@ -1,14 +1,17 @@
 import RootLayout from './Shared/Layout/RootLayout'
+import { Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Cars from './Pages/Cars'
 
 const App = () => {
-
   return (
-    <RootLayout>
-
-      <div className='bg-red-400 p-5'>
-        Hello World
-      </div>
-
+    <RootLayout>   
+      <Routes>
+        <Route path="/Home" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Cars" element={<Cars />} />
+      </Routes>
     </RootLayout>
   )
 }
