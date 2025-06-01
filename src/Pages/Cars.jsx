@@ -4,7 +4,7 @@ const Cars = () => {
     return(
     
             <div className="bg-green-300 p-3 space-x-15">
-                <Link to="/Cars/AddCar" className='hover:text-blue-300'>Add Car</Link>
+                <Link to="/Cars/AddCar" className='hover:text-bl'>Add Car</Link>
 
                 <Link to="/Cars/McLaren">McLaren</Link>
                 <Link to="/Cars/Ferrari">Ferrari</Link>
@@ -14,4 +14,4 @@ const Cars = () => {
     )
 }
 
-export default Cars 
+export default Cars

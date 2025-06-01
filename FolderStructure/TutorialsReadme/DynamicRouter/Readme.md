@@ -1,5 +1,29 @@
 # Dynamic Router
 
+Step 1. Imagine meron tayong Home.jsx
+
+const Home = () => {
+    return(
+        <>
+            <div className='bg-red-300 border'>Home Page</div>
+        </>
+    )
+}
+
+export default Home
+
+Step 2. Bago tayo makapag-link ng kaylangan muna natin gawin yung static route example meron tayong 
+
+import Home from './Pages/Home'
+<route path="/Home" element={Home /}/>
+
+Step 3. then ili-link natin sya using
+
+import { Link } from 'react-router-dom'
+<link to="/Home">Home Page</Link>
+
+
+
 1, Linking files
 
 <link> to="/Cars"> Car Page </link>

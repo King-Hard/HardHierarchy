@@ -5,18 +5,20 @@ import About from './Pages/About'
 import Cars from './Pages/Cars'
 import Car from './Pages/Car'
 import AddCar from './Components/CarsFolder/AddCar'
+import NotFound from './Pages/NotFound'
 
 const App = () => {
   return (
-    <RootLayout>   
-      <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Cars" element={<Cars />} />
-        <Route path="/Cars/:id" element={<Car />} />
-        <Route path="/Cars/AddCar" element={<AddCar />} />
-      </Routes>
-    </RootLayout>
+    <Routes>
+      <Route element={<RootLayout />}>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Cars" element={<Cars />} />
+          <Route path="/Cars/:id" element={<Car />} />
+          <Route path="/Cars/AddCar" element={<AddCar />} />
+      </Route>
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   )
 }
 
