@@ -4,7 +4,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Cars from './Pages/Cars'
 import Car from './Pages/Car'
-import AddCar from './Pages/AddCar'
+import AddCar from './Components/CarsFolder/AddCar'
 
 const App = () => {
   return (
