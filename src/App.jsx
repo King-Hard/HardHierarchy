@@ -6,6 +6,7 @@ import Cars from './Pages/Cars'
 import Car from './Pages/Car'
 import AddCar from './Components/CarsFolder/AddCar'
 import NotFound from './Pages/NotFound'
+import Timer from './Pages/Timer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/Cars" element={<Cars />} />
           <Route path="/Cars/:id" element={<Car />} />
           <Route path="/Cars/AddCar" element={<AddCar />} />
+          <Route path="/Timer" element={<Timer />}/>
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>

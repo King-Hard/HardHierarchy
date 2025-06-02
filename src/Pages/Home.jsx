@@ -1,15 +1,28 @@
-import { useOutletContext } from "react-router-dom"
+import { useEffect, useState, useRef} from "react"
 
 const Home = () => {
-    const {user} = useOutletContext()
+    const [count, setCount] = useState(0)
+    const buttonRef = useRef(null)
+
+    useEffect(() => {
+        if(buttonRef.current){
+            setTimeout(() => {
+                buttonRef.current.style.display = "none"
+            }, 4000)
+        }
+    })
 
     return(
         <>
     
             <div className="bg-violet-300 p-5">
-                Welcome back {user}
+                Welcome back
             </div>
     
+            <div className="flex space-x-10">
+                <span>Count: {count}</span>
+                <button ref={buttonRef} className="border" onClick={() => setCount(count + 1)}>Increment</button>
+            </div>
         </>
     )
 }
