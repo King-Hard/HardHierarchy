@@ -3,13 +3,12 @@ import Footer from '../Partial/Footer'
 import { Outlet } from 'react-router-dom'
 
 const RootLayout = () => {
-
   return (
     <>
 
-          <Header />
+          <Header /> 
 
-            <Outlet />
+            <Outlet context={ {user: "KingHard-Hierarchy"} }/>
 
           <Footer />
 
