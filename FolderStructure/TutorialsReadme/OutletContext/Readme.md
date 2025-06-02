@@ -11,7 +11,7 @@ const RootLayout = () => {
   return (
     <>
 
-          <Header /> 
+          <Header />  
 
             <Outlet //context: {{user: "Hard"}}/>
 
