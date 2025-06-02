@@ -15,7 +15,7 @@ const Home = () => {
     return(
         <>
     
-            <div className="bg-violet-300 p-5">
+            <div className='bg-violet-300 p-5 flex justify-center min-h-screen items-center'>
                 Welcome back
             </div>
     

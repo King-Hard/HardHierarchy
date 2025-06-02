@@ -26,7 +26,7 @@ const About = () => {
     
     return(
 
-        <>
+        <div className='flex justify-center min-h-screen items-center'>
 
             <div className="bg-red-300 p-5">
                 About Page
@@ -41,7 +41,7 @@ const About = () => {
                     <button className='border' onClick={handlePause}>Pause</button>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

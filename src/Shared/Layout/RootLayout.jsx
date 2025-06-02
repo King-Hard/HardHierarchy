@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 const RootLayout = () => {
   return (
-    <>
+    <div className='bg-gray-200'>
 
           <Header /> 
 
@@ -12,7 +12,7 @@ const RootLayout = () => {
 
           <Footer />
 
-    </>
+    </div>
   )
 }
 

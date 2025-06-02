@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Cars = () => {
     return(
     
-            <div className="bg-green-300 p-3 space-x-15">
+            <div className='bg-green-300 p-3 space-x-15 flex justify-center min-h-screen items-center'>
                 <Link to="/Cars/AddCar" className='hover:text-bl'>Add Car</Link>
 
                 <Link to="/Cars/McLaren">McLaren</Link>

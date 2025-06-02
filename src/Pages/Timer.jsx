@@ -25,7 +25,7 @@ const Timer = () => {
         <div className="flex justify-center min-h-screen items-center font-medium">
             <div className='space-x-5 space-y-10'>
                 
-                <p className='bg-violet-200 w-full border rounded-lg p-10 text-xl'>Timer: {count}</p>
+                <p className='bg-white w-full border rounded-lg p-10 text-xl'>Timer: {count}</p>
 
                 <button className='rounded p-3 w-30 bg-green-300 hover:bg-green-500' onClick={start}>Start</button>
                 <button className='rounded p-3 w-30 bg-blue-300 hover:bg-blue-500' onClick={pause}>Pause</button>
